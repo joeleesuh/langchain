@@ -44,7 +44,6 @@ text: {text}
 
 {format_instructions}
 """
-
 prompt = ChatPromptTemplate.from_template(template=review_template_2)
 
 messages = prompt.format_messages(text=customer_review, 
